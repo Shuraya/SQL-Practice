@@ -1,0 +1,9 @@
+/*What are your favorite books? 
+You can make a database table to store them in! 
+In this first step, create a table to store your list of books. It should have columns for id, name, and rating.*/
+
+CREATE TABLE FavoriteBooks(id INTEGER PRIMARY KEY,name TEXT,rating INTEGER);
+
+INSERT INTO FavoriteBooks VALUES(1,"Of Mice and Men",3);
+INSERT INTO FavoriteBooks VALUES(2,"Outlier",3);
+INSERT INTO FavoriteBooks VALUES(3,"To Kill a Mockingbird",3);
